@@ -42,9 +42,9 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level → PM → Product Lead → Sponsor
-- Quality issues: QA Lead → PM → Product Lead
-- Design/UX issues: UX Designer → Product Manager → Design Lead
-- Infrastructure/deployment issues: DevOps Engineer → PM → Infrastructure Lead
-- Release coordination issues: Release Manager → PM → Product Lead
+- Team-level -> PM -> Product Lead -> Sponsor
+- Quality issues: QA Lead -> PM -> Product Lead
+- Design/UX issues: UX Designer -> Product Manager -> Design Lead
+- Infrastructure/deployment issues: DevOps Engineer -> PM -> Infrastructure Lead
+- Release coordination issues: Release Manager -> PM -> Product Lead
 - For security incidents, follow the security incident runbook and notify Security on-call
