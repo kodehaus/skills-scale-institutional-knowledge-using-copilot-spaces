@@ -3,18 +3,28 @@
 ## Purpose
 Turn an approved initiative into an actionable plan and backlog for delivery.
 
+## Key Roles in Planning
+- **Project Manager**: Facilitates planning, manages timelines and risks
+- **Product Manager**: Defines requirements and prioritizes backlog
+- **Developer**: Estimates work and identifies technical dependencies
+- **QA Lead**: Defines testing approach and quality gates
+- **UX Designer**: Scopes design work and ensures usability requirements
+- **DevOps Engineer**: Identifies infrastructure and deployment needs
+
 ## Objectives
 - Break work into shippable increments
 - Identify dependencies and risks
 - Align timelines, releases, and responsibilities
 
 ## Activities
-1. Kickoff meeting with stakeholders and delivery team
-2. Create prioritized backlog with acceptance criteria
-3. Estimate scope (T-shirt sizing or story points)
-4. Define Definition of Done (DoD)
-5. Identify dependencies and integration points
-6. Create release plan and milestone map
+1. Kickoff meeting with stakeholders and delivery team (PM, PdM, Dev, QA, UX, DevOps)
+2. Create prioritized backlog with acceptance criteria (Product Manager + UX Designer)
+3. Estimate scope (T-shirt sizing or story points with Developers)
+4. Define Definition of Done (DoD) including quality gates (QA Lead input)
+5. Identify dependencies and integration points (all roles)
+6. Create release plan and milestone map (PM + Release Manager)
+7. Establish testing strategy and automation plan (QA Lead + DevOps Engineer)
+8. Plan design deliverables and review cycles (UX Designer + Product Manager)
 
 ## Backlog Item Template
 - Title:
@@ -36,8 +46,11 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Mark cross-team dependencies in the project board and escalate during weekly syncs
 
 ## Planning Checklist
-- [ ] Project kickoff held
+- [ ] Project kickoff held with all key roles (PM, PdM, Dev, QA, UX, DevOps)
 - [ ] Backlog prioritized and estimated
-- [ ] Release timeline and milestones agreed
-- [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+- [ ] Release timeline and milestones agreed with Release Manager
+- [ ] Definition of Done documented with quality criteria
+- [ ] Test strategy and quality gates defined (QA Lead)
+- [ ] Design scope and deliverables planned (UX Designer)
+- [ ] Infrastructure and deployment needs identified (DevOps Engineer)
+- [ ] Cross-team dependencies mapped and owners assigned

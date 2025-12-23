@@ -23,6 +23,10 @@ Maintain a simple table with:
 - Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
+- Release Manager communicates deployment schedules and release status
+- QA Lead reports on quality metrics and testing progress
+- DevOps Engineer provides infrastructure and deployment updates
+- UX Designer shares design progress and usability findings
 
 ## Communication Templates
 Weekly Status Template:
@@ -39,4 +43,8 @@ Incident Communication
 
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
+- Quality issues: QA Lead -> PM -> Product Lead
+- Design/UX issues: UX Designer -> Product Manager -> Design Lead
+- Infrastructure/deployment issues: DevOps Engineer -> PM -> Infrastructure Lead
+- Release coordination issues: Release Manager -> PM -> Product Lead
 - For security incidents, follow the security incident runbook and notify Security on-call
